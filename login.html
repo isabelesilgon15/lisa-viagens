@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Lisa Viagens</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div class="min-h-screen bg-slate-200 px-2">
+      <div class="h-full max-w-[1200px] mx-auto py-4">
+        <header class="flex items-center justify-between">
+          <a
+            href="./index.html"
+            class="font-bold text-gray-700 text-3xl flex items-center gap-x-2"
+          >
+            <i class="ph-airplane-tilt-fill text-4xl"></i>
+            Lisa Viagens
+          </a>
+
+          <div class="flex items-center gap-x-4">
+            <a href="./cadastro.html" class="hover:underline">Cadastre-se</a>
+            <a href="./login.html" class="hover:underline">Login</a>
+          </div>
+        </header>
+
+        <main class="my-24">
+          <div class="flex gap-x-12">
+            <img src="./images/world.svg" class="w-full max-w-[700px] mt-8" />
+
+            <form
+              class="bg-gray-100 border-2 border-orange-400 flex-1 rounded shadow-lg p-4 self-start"
+            >
+              <p class="text-lg font-bold text-gray-800">
+                Acesse sua conta para desfrutar de centenas de promoções em
+                viagens nacionais e internacionais!
+              </p>
+              <label class="mt-4 flex flex-col gap-y-2">
+                <span class="text-gray-800 font-medium">E-mail</span>
+                <input
+                  type="text"
+                  class="h-10 rounded px-4 outline-0 border-2 border-gray-200 transition-colors focus:border-orange-400 text-gray-700"
+                />
+              </label>
+              <label class="mt-4 flex flex-col gap-y-2">
+                <span class="text-gray-800 font-medium">Senha</span>
+                <input
+                  type="password"
+                  class="h-10 rounded px-4 outline-0 border-2 border-gray-200 transition-colors focus:border-orange-400 text-gray-700"
+                />
+              </label>
+              <button
+                type="submit"
+                class="mt-8 bg-orange-400 w-full h-14 rounded text-white font-bold text-xl transition-colors hover:bg-orange-500"
+              >
+                Acessar conta
+              </button>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
